@@ -2,13 +2,13 @@ export const Bio = {
     name: "Reshma S",
     roles: [
       "MERN FullStack Developer",
-      "Programmer",
+      "Software Engineer",
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/SReshma2412",
     resume:
-     "https://drive.google.com/drive/folders/1iTNXPOFDhb-4NlPPexKvKBztNudDgZqH" ,
+     "https://drive.google.com/file/d/18Ehai95WVyAWp1pbvLi7QOmUK4KkpblM/view?usp=sharing" ,
     linkedin:"https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" ,
     twitter: "https://twitter.com/ReshmaS1787100",
     insta: "https://www.instagram.com/resh_kutty76/",
@@ -65,19 +65,35 @@ export const Bio = {
       ],
     },
     {
-      title: "Android",
+      title: "Android,databse",
       skills: [
         {
           name: "Java",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
         },
+        {
+          name: "JDBC",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        },
+       
+        {
+          name: "SQL",
+          image:
+            "https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg",
+        },
+        {
+          name: "Git",
+          image:
+            "https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg",
+        },
+       
        
        
       ],
     },
-    
-         
+   
        
 
   ];
@@ -88,13 +104,15 @@ export const Bio = {
       id: 0,
       role: "MERN FullStack Intern",
       company: "Ethunus",
-      date: "August 2023 - Present",
+      date: "August 2023 -december 2023",
       desc: "Working on the frontend of the web application using ReactJS",
       skills: [
+        
         "ReactJS",
         "NodeJs",
         "HTML",
         "CSS",
+        "Bootstrap",
         "JavaScript",
         "MongoDB"
       ],
@@ -108,24 +126,24 @@ export const Bio = {
     {
       id: 0,
       school: "Vellore Institute of Technology,Vellore",
-      date: "Oct 2021 - Sep 2025",
-      grade: "8.59 CGPA",
-      desc: "I am currently pursuing a BTech Information Technology at Vellore Institute of Technology,Vellore. I have completed 5 semesters and have a CGPA of 8.59. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+      date: " 2021 - 2025",
+      grade: "8.61 CGPA",
+      desc: "I am currently pursuing a BTech Information Technology at Vellore Institute of Technology,Vellore. I have completed 6 semesters and have a CGPA of 8.61. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
       degree: "Bachelor of Technology - BTech Infromation Technology",
     },
     {
       id: 1,
-      school: "Government Higher Secondary School,Thirumullaivasal",
-      date: "Apr 2020 - Apr 2021",
-      grade: "92.2%",
+      school: "Government Modern Higher Secondary School,Thirumullaivasal",
+      date: " 2020 -2021",
+      grade: "91.4%",
       desc: "I completed my class 12 high school education at Government Higher Secondary School,Thirumullaivasal  where I studied Maths-Biology.",
       degree: "Maths-Biology",
     },
     {
       id: 2,
-      school: "Government Higher Secondary School,Thirumullaivasal",
-      date: "Apr 2018 - Apr 2019",
-      grade: "92.3%",
+      school: "Government Modern Higher Secondary School,Thirumullaivasal",
+      date: "2018 - Apr 2019",
+      grade: "91%",
       desc: "I completed my class 10 education at Government Higher Secondary School,Thirumullaivasal,  where I studied Maths-Biology",
       degree: "Maths-Biology",
     },
@@ -133,19 +151,24 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 9,
-      title: "Automated Toll Gate System in IOT",
-      date: "Jun 2023 - Jul 2023",
+      id: 1,
+      title: "Bus Reservation System Project using Java and JDBC",
       description:
-        "An automated toll gate system is a technology-driven solution that streamlines the process of collecting tolls from vehicles by employing electronic toll collection methods, reducing traffic congestion and enhancing efficiency. It typically involves RFID tags, cameras, and payment gateways to ensure swift and convenient toll payment.",
+        " Designed and managed a MySQL database schema with tables for buses, routes, schedules, and reservations, ensuring data integrity and efficient storage.",
 
     },
     {
-      id: 10,
-      title: "Online Hotel Management System",
-      date: "Jun 2023 - december 2023",
+      id: 2,
+      title: "Banking System Project using Java and JDBC",
       description:
-        "An online hotel management system is a software application designed to streamline and automate various operational aspects of a hotel or hospitality establishment. It serves as a centralized platform that enables hotel staff to efficiently manage their day-to-day tasks, while also providing a user-friendly experience for guests to make reservations, check-in, and access information about the hotel's services and amenities.",
+        "Designed and managed a MySQL database schema with tables for users and accounts, ensuring data integrity and efficient storage ",
+
+    },
+    {
+      id: 3,
+      title: "Hospital Management System Project using Java and JDBC",
+      description:
+        "Designed and managed a MySQL database schema with tables for patients, doctors, and appointments, ensuring data integrity and efficient storage.",
 
     },
     
